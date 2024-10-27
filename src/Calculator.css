@@ -1,0 +1,42 @@
+.calculator {
+    padding: 0 14px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+.keypad{
+    width: 15rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.buttons{
+    background-color: black;
+    color: white;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.result-h3 {
+    text-align: center;
+    height: 2rem;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+
+.clear-button{
+    color: rgb(255, 56, 56)
+}
+
+.equal-button{
+    background-color: rgb(151, 151, 151);
+    color: white;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+}
+
+.fa-solid{
+    font-size: 1.5rem;
+}
